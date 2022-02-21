@@ -1,10 +1,28 @@
-#titleArea {
-    height: 500px;
-    width: auto;
-    background-image: url("https://media.istockphoto.com/photos/the-changes-of-weather-a-natural-phenomenon-of-the-differences-of-picture-id1257525705?b=1&k=20&m=1257525705&s=170667a&w=0&h=8APfi2HN3sWhvfqC5CHs0dkhMDpX1reiiOOD2sBJAj4=");
-    background-repeat: no-repeat;
+#title {
+    background-color: rgb(255, 255, 255);
+}
+*{
+    box-sizing: border-box;
+    
 }
 
-#title {
-    background-color: white;
+body {
+    
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
 }
